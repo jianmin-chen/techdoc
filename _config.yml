@@ -7,4 +7,4 @@ library_description: >-
 url: "https://jianmin-chen.github.io"
 plugins_dir:
     -jekyll-remote-theme
-remote_theme: jianmin-chen/techdoc-jekyll-theme
+remote_theme: jianmin-chen/techdoc
