@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "techdoc-jekyll-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["jianmin-chen"]
   spec.email         = ["jianmin0chen@gmail.com"]
 
-  spec.summary       = "TechDoc is a theme designed for writing technical documentation! It's quick and easy to set up."
+  spec.summary       = "TechDoc is a Jekyll theme designed for writing technical documentation! It's quick and easy to set up."
   spec.homepage      = "https://jianmin-chen.github.io/techdoc/"
   spec.license       = "MIT"
 
