@@ -26,7 +26,7 @@
             <div class="col content-container">
                 <div class="content">{{ content }}</div>
                 {%- if site.author -%}
-                    <footer class="footer">Made with &hearts; by <a href="{{ "https://github.com/" | append:site.github_username | relative_url | default: "#" }}">{{ site.author }}</a></footer>
+                    <footer class="footer">Made with &hearts; by <a href="{{ "https://github.com/" | append:site.github_username | relative_url | default: "#" }}">{{ site.author }}</a>.</footer>
                 {%- else -%}
                     <footer class="footer">Made with &hearts;.</footer>
                 {%- endif -%}
