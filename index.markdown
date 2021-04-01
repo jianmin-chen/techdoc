@@ -17,11 +17,11 @@ theme: techdoc-jekyll-theme
 ```
 And then execute:
 ```
-    $ bundle
+$ bundle
 ```
 Or install it yourself as:
 ```
-    $ gem install techdoc-jekyll-theme
+$ gem install techdoc-jekyll-theme
 ```
 ## Usage
 Once you've installed the theme using the instructions above, you can start writing technical documentation right away by creating a new `.markdown` file in the `/posts` folder. The file should be named `year-month-day-title.markdown`, and the beginning of the file should look something like this:
