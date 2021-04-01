@@ -1,4 +1,5 @@
 # TechDoc
+[![Gem Version](https://badge.fury.io/rb/techdoc-jekyll-theme.svg)](https://badge.fury.io/rb/techdoc-jekyll-theme)
 
 ## About
 
