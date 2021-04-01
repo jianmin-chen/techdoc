@@ -1,0 +1,10 @@
+author: Jianmin Chen
+baseurl: "/techdoc"
+github_username: jianmin-chen
+library_name: TechDoc
+library_description: >-
+    Jekyll theme for writing technical documentation
+url: "https://jianmin-chen.github.io"
+plugins_dir:
+    -jekyll-remote-theme
+remote_theme: jianmin-chen/techdoc-jekyll-theme

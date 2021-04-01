@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <title>{{ site.library_name | default: "Library" }} | {{ page.title | default: "Documentation" }}</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append:site.github.build_revision | relative_url }}">
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.1/build/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </head>
+    <body>
+        <div class="row">
+            <nav class="col menu">
+                <div class="menu-content">
+                    <h1 class="display-1"><a href="{{ "/" | absolute_url }}">{{ site.library_name }}</a></h1>
+                    <p class="text-muted">{{ site.library_description }}</p>
+                    <!-- Pages -->
+                    {%- if site.posts.size > 0 -%}
+                        {%- for post in site.posts -%}
+                            <a class="nav-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                        {%- endfor -%}
+                    {%- endif -%}
+                </div>
+            </nav>
+            <div class="col content-container">
+                <div class="content">{{ content }}</div>
+                {%- if site.author -%}
+                    <footer class="footer">Made with &hearts; by <a href="{{ "https://github.com/" | append:site.github_username | relative_url | default: "#" }}">{{ site.author }}</a></footer>
+                {%- else -%}
+                    <footer class="footer">Made with &hearts;.</footer>
+                {%- endif -%}
+            </div>
+        </div>
+    </body>
+</html>
