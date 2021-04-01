@@ -1,5 +1,5 @@
 ---
-title: TechDoc
+title: Documentation
 layout: post
 ---
 
@@ -9,17 +9,20 @@ TechDoc is a Jekyll theme designed for writing technical documentation. The temp
 ## Installation
 Add this line to your Jekyll site's `Gemfile`:
 ```ruby
-gem "techdoc"
+gem "techdoc-jekyll-theme"
 ```
 And add this line to your Jekyll site's `_config.yml`:
 ```yaml
-theme: techdoc
+theme: techdoc-jekyll-theme
 ```
 And then execute:
+```
     $ bundle
+```
 Or install it yourself as:
-    $ gem install techdoc
-
+```
+    $ gem install techdoc-jekyll-theme
+```
 ## Usage
 Once you've installed the theme using the instructions above, you can start writing technical documentation right away by creating a new `.markdown` file in the `/posts` folder. The file should be named `year-month-day-title.markdown`, and the beginning of the file should look something like this:
 ```markdown
@@ -33,7 +36,7 @@ Once you've got that, you can start writing away! A quick reference on writing c
 For a more in-depth tutorial, take a look at this [page]({% post_url 2021-04-01-using-this-theme %}).
 
 ## Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/jianmin-chen/techdoc. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/jianmin-chen/techdoc](https://github.com/jianmin-chen/techdoc). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 To set up your environment to develop this theme, run `bundle install`.
