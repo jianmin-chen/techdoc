@@ -45,6 +45,7 @@ a:hover {opacity: 0.8;}
     color: white;
     display: block;
     font-size: 5rem;
+    word-wrap: break-word;
 }
 
 .text-muted {color: #6c757d;}
@@ -126,6 +127,7 @@ a:hover {opacity: 0.8;}
 .content :not(pre) > code {
     color: #dc3545;
     font-size: 1rem;
+    word-wrap: break-word;
 }
 
 .content pre > code {
