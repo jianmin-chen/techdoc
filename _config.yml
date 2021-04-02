@@ -4,6 +4,7 @@ github_username: jianmin-chen
 library_name: TechDoc
 library_description: >-
     Jekyll theme for writing technical documentation
+library_link: https://github.com/jianmin-chen/techdoc
 url: "https://jianmin-chen.github.io"
 plugins_dir:
     -jekyll-remote-theme

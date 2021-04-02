@@ -66,6 +66,7 @@ author: Jianmin Chen
 baseurl: "/techdoc"
 github_username: jianmin-chen
 library_name: TechDoc
+library_link: https://github.com/jianmin-chen/techdoc
 library_description: >-
     Jekyll theme for writing technical documentation
 url: "https://jianmin-chen.github.io"

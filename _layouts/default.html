@@ -15,7 +15,7 @@
                 <div class="menu-content">
                     <h1 class="display-1"><a href="{{ "/" | absolute_url }}">{{ site.library_name }}</a></h1>
                     <p class="text-muted">{{ site.library_description }}</p>
-                    <!-- Pages -->
+                    <a class="nav-link" href="{{ site.library_link }}">Source Code</a>
                     {%- if site.posts.size > 0 -%}
                         {%- for post in site.posts -%}
                             <a class="nav-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
