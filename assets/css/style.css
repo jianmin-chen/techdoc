@@ -173,6 +173,7 @@ a:hover {opacity: 0.8;}
 /* Styling for mobile */
 @media screen and (max-width: 991px) {
     .display-1  {margin: 2rem 0;}
+    .display-1 a {font-size: 3.5rem;}
 
     .row {display: block;}
 

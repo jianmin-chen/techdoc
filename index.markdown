@@ -33,7 +33,7 @@ layout: post
 ```
 Once you've got that, you can start writing away! A quick reference on writing content in Markdown can be found [here](https://kramdown.gettalong.org/quickref.html).
 
-For a more in-depth tutorial, take a look at this [page]({% post_url 2021-04-01-using-this-theme %}).
+For a more in-depth tutorial, take a look at this [page](/techdoc/2021/04/01/using-this-theme.html).
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at [https://github.com/jianmin-chen/techdoc](https://github.com/jianmin-chen/techdoc). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
