@@ -123,9 +123,13 @@ remote_theme: jianmin-chen/techdoc
 
 Then, sign up or log in to your GitHub account, and create a new repository. Depending on whether or not you added a `baseurl` variable to your `_config.yml` file, you have a couple of options for naming your repository - you can either use the `baseurl` or `<username>.github.io`.
 
-Once you've set up your repository, you need to get a local copy of the repository. To do so, you need to create a final directory for your blog. Afterwards, you can open the command line and type in `git clone https://github.com/<username>/<repository name>.git` to get a local copy of the repository you just created on your desktop.
-
-After you clone it, you can copy and paste all your current blog files into the new directory. You can then update the actual repository by running the following commands:
+Once you've set up your repository, you need to get a local copy of the repository. To do so, you need to install [Git](https://git-scm.com/downloads) first. Afterwards, you can open the command line, navigate to the location of your blog, and run the following commands:
+~~~
+git config --global user.name "<your GitHub username>"
+git config --global user.email "<your GitHub email>"
+git clone https://github.com/<username>/<repository name>.git
+~~~
+After you clone it, you can run:
 ~~~
 git add .
 git commit -m "<commit message>"
