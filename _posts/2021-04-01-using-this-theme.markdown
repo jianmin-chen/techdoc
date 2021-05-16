@@ -129,7 +129,7 @@ git config --global user.name "<your GitHub username>"
 git config --global user.email "<your GitHub email>"
 git clone https://github.com/<username>/<repository name>.git
 ~~~
-After you clone it, you can run:
+These commands set up the GitHub command line. After you clone it, you can run:
 ~~~
 git add .
 git commit -m "<commit message>"
