@@ -95,7 +95,7 @@ library_description: >-
 url: "https://jianmin-chen.github.io"
 theme: techdoc-jekyll-theme
 ~~~
-Some of these are self-explanatory, but others need a little bit more explanation. `baseurl` is the URL after your website URL. For example, `url` in the above example is *https://jianmin-chen.github.io* and `baseurl` is */techdoc*, so to visit the blog above someone would visit *https://jianmin-chen.github.io/techdoc*. You can either add a custom `baseurl` or just */* as is the default case.
+Some of these are self-explanatory, but others need a little bit more explanation. `baseurl` is the URL after your website URL. For example, `url` in the above example is *https://jianmin-chen.github.io* and `baseurl` is */techdoc*, so to visit the blog above someone would visit *https://jianmin-chen.github.io/techdoc*. You can either add a custom `baseurl` or remove it if necessary.
 
 As mentioned before, you will need to rerun `bundle exec jekyll serve` in order to see a updated version of your blog.
 

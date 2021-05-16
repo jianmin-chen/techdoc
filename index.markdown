@@ -2,8 +2,6 @@
 title: Documentation
 layout: post
 ---
-
-## About
 TechDoc is a Jekyll theme designed for writing technical documentation. The templates that come with it are very minimal, so you can quickly get started writing documentation.
 
 ## Installation
