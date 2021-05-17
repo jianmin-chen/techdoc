@@ -29,7 +29,7 @@ img {
  * Basic typography setup
  */
 a {
-    color: var(--text-color);
+    color: #454545;
     font-size: 0.995rem;
     margin: 5px 0;
     text-decoration: none;
@@ -99,6 +99,7 @@ code {
 /* Navigation links */
 .menu .nav-link {
     color: white;
+    font-size: 0.995rem;
     display: block;
 }
 
@@ -185,12 +186,13 @@ code {
 }
 
 .content :not(pre) > code {
-    color: #dc3545;
-    font-size: 0.995rem;
+    font-size: 0.98rem;
+    font-style: italic;
     word-wrap: break-word;
 }
 
 .content pre > code {
+    border-radius: 15px;
     font-size: 0.95rem;
     padding: 15px 30px;
     white-space: pre-wrap;
@@ -260,6 +262,7 @@ code {
 
     .menu .menu-content {
         padding: 25px;
+        height: 100%;
     }
 
     .content-container {
