@@ -120,6 +120,7 @@ plugins_dir:
     - jekyll-remote-theme
 remote_theme: jianmin-chen/techdoc
 ~~~
+Make sure to also remove `theme: techdoc-jekyll-theme`, since this can cause issues when GitHub tries to detect the theme to use.
 
 Then, sign up or log in to your GitHub account, and create a new repository. Depending on whether or not you added a `baseurl` variable to your `_config.yml` file, you have a couple of options for naming your repository - you can either use the `baseurl` or `<username>.github.io`.
 
